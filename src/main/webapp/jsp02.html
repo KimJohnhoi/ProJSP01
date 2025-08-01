@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<script>
+   $( function() {
+	   
+   })
+</script>
+</head>
+<body>
+    <h2>서버로 값보내기 (2가지 방법)</h2>
+    <p>1번방법:a tag </p>
+    <a href="http://localhost:8080/PrjJSP01/jsp02.jsp?q=%EB%82%98&r=abc">값 전달1</a>
+    <hr>
+    <p>2번 방법 form tag 안의 input tag로 전달</p>
+    <form action="http://localhost:8080/PrjJSP01/jsp02.jsp" method="GET">
+    q<input type="text" name="q" value="나" /><br>
+    r<input type="text" name="r" value="abc" /><br>
+    <input type="submit" value="전송" />
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

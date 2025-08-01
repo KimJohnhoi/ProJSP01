@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<script>
+   $( function() {
+	   
+   })
+</script>
+</head>
+<body>
+    <h2>사용자 목록 조회</h2>
+    <a href="userlist.jsp?name=all">전체목록</a>
+    <hr>
+    <form action="userlist.jsp" method="GET">
+    이름검색<input type="text" name="name" />
+    <input type="submit" value="조회" />
+    </form>
+    <hr />
+    
+    <h2>회원가입</h2>
+    <form action="adduser.jsp" method="get">
+    NAME  <input type="text" name="name" /><br />
+    USERID<input type="text" name="userid" /><br />
+    PASSWD<input type="text" name="passwd" /><br />
+    EMAIL <input type="text" name="email" /><br />
+    <input type="submit" value="등록" />
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
